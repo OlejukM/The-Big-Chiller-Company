@@ -4,6 +4,9 @@
     font-family: 'futura', Geneva, Tahoma, sans-serif;
 }
 
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
 
 nav {
     background-color: #f5f5f5;
@@ -18,7 +21,16 @@ nav a {
 
 nav a:hover {
     color: #019fbc;
-    /* border-bottom: 2px solid #019fbc; */
+    border-bottom: 2px solid #019fbc;
+}
+
+a#dropdownMenuLink.nav-link.dropdown-toggle{
+    border: 1px solid #f5f5f5;
+}
+
+ul.dropdown-menu.show{
+    padding: 0;
+    text-align: center;
 }
 
 #london {
@@ -55,7 +67,7 @@ nav a:hover {
 
 .text-dec:hover {
     border-bottom: none;
-    background-color: #7edece !important;
+    background-color: #019fbc !important;
     color: #fff !important;
 }
 
@@ -131,10 +143,9 @@ button.owl-dot.active {
     top: 71%;
 }
 
-.mbb{
+.mbb {
     margin-bottom: 60px;
 }
-
 
 .font-style {
     color: #ffffff;
@@ -165,95 +176,191 @@ button.owl-dot.active {
     width: 131px;
 }
 
-.height-row{
+.height-row {
     height: 111px;
     background-color: #f5f5f5;
 }
 
-.opinions{
-color: #282828;
-font-family: Futura;
-font-size: 20px;
-font-weight: 700;
-line-height: 15.82px;
-text-transform: uppercase;
+.opinions {
+    color: #282828;
+    font-family: Futura;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 15.82px;
+    text-transform: uppercase;
 }
 
-.big-chiller{
+.big-chiller {
     color: #019fbc;
 }
 
-.director{
+.director {
     margin: 0 !important;
     height: 367px;
     padding: 0 !important;
 }
 
-.img-size{
+.img-size {
     width: 100%;
 }
 
-.icon{
-position: absolute;
-top: 40%;
-left: 5%;
-font-size:2em; 
-color:#fff;
-text-shadow: 0 0 1px #000;
+.icon {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
 }
 
-.spn-text{
-color: #ffffff;
-font-family: Futura;
-font-size: 20px;
-font-weight: 700;
-line-height: 25px;
-text-transform: uppercase;
-position: absolute;
-top: 55%;
-left: 5%;
-width: 109px;
-text-shadow: 0 0 1px #000;
+.spn-text {
+    color: #ffffff;
+    font-family: Futura;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    width: 109px;
+    text-shadow: 0 0 1px #000;
 }
 
-.container-width{
+.container-width {
     position: absolute;
     top: 68%;
-    width: 450px !important;
+    width: 100% !important;
     background-color: #fff;
 }
 
-.opinions-famous{
+.opinions-famous {
     padding: 25px;
 }
 
-
-.opinions-famous>p{
-color: #282828;
-font-family: "Futura - Normal";
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+.opinions-famous>p {
+    color: #282828;
+    font-family: "Futura - Normal";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
-.opinions-famous h6{
-color: #282828;
-font-family: Futura;
-font-size: 14px;
-font-weight: 700;
-line-height: 18.36px;
-text-transform: uppercase;
+.opinions-famous h6 {
+    color: #282828;
+    font-family: Futura;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.36px;
+    text-transform: uppercase;
 }
 
-.margin-bottom{
+.margin-bottom {
     margin-bottom: 100px;
 }
 
-.border-top{
+.border-top {
     border-top: 1px solid black;
 }
 
-.cc-2{
+.cc-2 {
     width: 350px;
     position: absolute;
+    top: 70%;
+}
+
+.width-px {
+    width: 80%;
+    text-align: justify;
+    color: #282828;
+    font-family: "Futura - Normal";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.font-sz {
+    font-size: 24px;
+}
+
+.bg {
+    background-color: #019fbc;
+    color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: none !important;
+    color: #019fbc !important;
+    border-bottom: 2px solid #019fbc;
+    border-radius: 0;
+}
+
+.nav-pills .nav-link,
+.nav-pills .show>.nav-link {
+    color: #000 !important;
+}
+
+.bg-img {
+    background-image: url(img/warstwa-30.png);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.order-now {
+    color: #ffffff;
+    font-family: Futura;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 59.82px;
+    text-transform: uppercase;
+    margin-top: 396px;
+}
+
+.cool-it {
+    text-align: right;
+    color: #ffffff;
+    font-family: Futura;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 23.82px;
+    text-transform: uppercase;
+    margin-top: 428px;
+}
+
+.txt-style {
+    color: #282828;
+    font-family: "Futura - Normal";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36.02px;
+}
+
+.btn-hire-a-chiller {
+    width: 167px;
+    background-color: #fff;
+    color: #aaaaaa;
+    font-family: Futura;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.36px;
+    text-transform: uppercase;
+}
+
+.bg-f5 {
+    background-color: #f5f5f5;
+}
+
+.footer-p {
+    color: #a9a9a9;
+    font-family: "Futura - Normal";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+a.nav-link.footer-p:hover{
+    color: #818181;
 }
