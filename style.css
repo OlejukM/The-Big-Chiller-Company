@@ -4,6 +4,13 @@
     font-family: 'futura', Geneva, Tahoma, sans-serif;
 }
 
+@font-face{
+    font-family: "Futura";
+    src: url(fonts/futura.ttf);
+    font-family: "Futura - Normal";
+    src: url(fonts/Futura - Normal.ttf);
+}
+
 .selector-for-some-widget {
     box-sizing: content-box;
 }
@@ -24,11 +31,11 @@ nav a:hover {
     border-bottom: 2px solid #019fbc;
 }
 
-a#dropdownMenuLink.nav-link.dropdown-toggle{
+a#dropdownMenuLink.nav-link.dropdown-toggle {
     border: 1px solid #f5f5f5;
 }
 
-ul.dropdown-menu.show{
+ul.dropdown-menu.show {
     padding: 0;
     text-align: center;
 }
@@ -128,19 +135,32 @@ button.owl-dot.active {
     background-color: #8ed5e2;
 }
 
+#bg-1:hover{
+    opacity: 0.9;
+}
+#bg-2:hover{
+    opacity: 0.9;
+}
+#bg-3:hover{
+    opacity: 0.9;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
 .carousel-caption {
     width: 480px;
     height: 178px;
     color: #ffffff;
     font-family: Futura;
     font-size: 72px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 59.82px;
     text-transform: uppercase;
     text-align: left !important;
     position: absolute;
     left: 2% !important;
-    top: 71%;
 }
 
 .mbb {
@@ -150,7 +170,7 @@ button.owl-dot.active {
 .font-style {
     color: #ffffff;
     font-family: Futura;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 23.82px;
     text-transform: uppercase;
@@ -241,8 +261,8 @@ button.owl-dot.active {
 .opinions-famous>p {
     color: #282828;
     font-family: "Futura - Normal";
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 200;
     line-height: 24px;
 }
 
@@ -266,7 +286,6 @@ button.owl-dot.active {
 .cc-2 {
     width: 350px;
     position: absolute;
-    top: 70%;
 }
 
 .width-px {
@@ -319,15 +338,17 @@ button.owl-dot.active {
     margin-top: 396px;
 }
 
-.cool-it {
-    text-align: right;
+
+.cool-it-style{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
     color: #ffffff;
     font-family: Futura;
     font-size: 28px;
     font-weight: 700;
     line-height: 23.82px;
     text-transform: uppercase;
-    margin-top: 428px;
 }
 
 .txt-style {
@@ -361,6 +382,163 @@ button.owl-dot.active {
     line-height: 20px;
 }
 
-a.nav-link.footer-p:hover{
+a.nav-link.footer-p:hover {
     color: #818181;
 }
+
+.owl-carousel {
+    z-index: 0 !important;
+}
+
+/* Modal Popup */
+
+.bg-modal {
+    width: 100%;
+    height: 2990px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.modal-content {
+    width: 900px !important;
+    height: 500px;
+    background-color: #fff;
+    margin-top: 150px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row !important;
+}
+
+.popup-style {
+    border-right: 1px solid black;
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#popup-p-style {
+    color: #282828;
+    font-family: "Futura - Normal";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.popup-style-2 {
+    height: 100%;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+#popup-p-style-2 {
+    color: #282828;
+    font-family: Futura;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 23.82px;
+    text-transform: uppercase;
+}
+
+.custom-select {
+    width: 90% !important;
+    margin-bottom: 20px;
+}
+
+.mark-color {
+    color: #fff;
+}
+
+.popup-btn {
+    width: 210px;
+    text-align: center;
+    background-color: #019fbc;
+    color: #fff;
+    font-family: Futura;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21.42px;
+    text-transform: uppercase;
+}
+
+.txt-aling-c {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#click-popup {
+    cursor: pointer;
+}
+
+#popup-close {
+    cursor: pointer;
+}
+
+/* Modal Popup 2*/
+
+.popup-style-3 {
+    background-image: url("img/warstwa-41.png");
+    height: 385px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 25px;
+    color: #ffffff;
+    font-family: Futura;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 46.6px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 0;
+}
+
+#popstyle-3-p {
+    color: #282828;
+    font-family: "Futura - Normal";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36.02px;
+}
+
+.popup-style-2-md-2{
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+
+.width-modal{
+    width: 50%;
+}
+
+.popup-style-2-block-2 {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 25px;
+    text-align: center;
+}
+
+.bg-modal-2{
+    width: 100%;
+    height: 2990px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+#popup-close-2{
+    cursor: pointer;
+}
+
